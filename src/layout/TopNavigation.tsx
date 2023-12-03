@@ -12,10 +12,7 @@ const TopNavigation: React.FC<TopNavigationProps> = ({ open, setOpen }) => {
     <nav className="">
       <div className="fixed left-0 right-0 top-0 mb-4 flex h-16 items-center border-b border-b-white bg-black">
         <Button
-          onClick={() => {
-            console.log(open);
-            setOpen((pre) => !pre);
-          }}
+          onClick={() => setOpen((pre) => !pre)}
           className="rounded-full sm:hidden"
           variant="ghost"
           size="icon"
