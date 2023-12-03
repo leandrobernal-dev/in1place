@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "in1place",
+  title: "in1space",
   description: "Notes and ToDos in One Place",
 };
 
@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         suppressHydrationWarning
-        className={`${poppins.className} dark:bg-black dark:text-white`}
+        className={`${poppins.className} dark:bg-zinc-900 dark:text-white`}
       >
         <ThemeProvider
           attribute="class"
